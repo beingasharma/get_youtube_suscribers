@@ -8,7 +8,7 @@ const data = require("./data");
 
 // Cluster URL
 const DATABASE_URL =
-  "mongodb+srv://imabhish143_db_user:cQlDbEFmxBlf7WNs@cluster0.xuc1gjt.mongodb.net/?appName=Cluster0&retryWrites=true&w=majority";
+  "mongodb+srv://imabhish143_db_user:cQlDbEFmxBlf7WNs@cluster0.xuc1gjt.mongodb.net/?appName=Cluster0";
 
   //Connect to MongoDB using Mongoose
 mongoose.connect(DATABASE_URL, {
